@@ -1,6 +1,6 @@
 # coding-collective-test
 
-## Requirement
+## Requirements
 - PHP 8.2
 - Node 22.11.0
 - Composer 2.8.*
