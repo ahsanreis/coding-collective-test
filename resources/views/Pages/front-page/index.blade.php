@@ -83,7 +83,7 @@
                 <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold tracking-tight text-center md:text-left">Contact Us</h2>
                 <p class="mt-4 text-lg leading-relaxed text-gray-300 text-center md:text-left">Have a question or want to work together? Send a message.</p>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-6 items-start">
-                    <form action="#" method="post" class="space-y-4" novalidate>
+                    <form action="{{ route('contact.store') }}" method="post" class="space-y-4" novalidate>
                         @csrf
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div>
@@ -134,7 +134,7 @@
                     </li>
                     <li>
                         <span class="block text-sm text-gray-400">Admin Login</span>
-                        <a href="#" target="_blank" rel="noopener" class="underline underline-offset-4">Login</a>
+                        <a href="{{ route('login') }}" class="underline underline-offset-4">Login</a>
                     </li>
                 </ul>
             </div>
